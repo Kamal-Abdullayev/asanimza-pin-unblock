@@ -1,0 +1,21 @@
+/* #phone-number-id {
+} */
+
+#user-id {
+    margin-top: 2%;
+}
+
+.asan-req-inputs{
+    margin: 0 10% 0 10%;
+    padding: 10px 5px; 
+    line-height: 5px;
+    color: black;
+}
+
+#enroll-button {
+    margin-top: 2%;
+}
+
+#status {
+    margin-top: 2%;
+}
