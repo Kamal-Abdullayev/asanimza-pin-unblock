@@ -59,9 +59,8 @@ SampleApp = (function () {
             console.log(userImageList.get(userPin.value));
             userImage =  userImageList.get(userPin.value);
         } else {
-            userImage = "Noo"
+            window.location.href = './template/fail-page.html';
         }
-        console.log(userImage);
         
         initializeResultObjects();
 
@@ -118,7 +117,6 @@ SampleApp = (function () {
         // Get a Session Token from the FaceTec SDK, then start the 3D Liveness Check.  On Success, ID Scanning will start automatically.
         getSessionToken(function (sessionToken) {
             latestEnrollmentIdentifier = "browser_sample_app_" + SampleAppUtilities.generateUUId();
-            console.log("***********************");
             console.log(latestEnrollmentIdentifier);
             latestProcessor = new PhotoIDMatchProcessor(sessionToken, SampleApp);
         });

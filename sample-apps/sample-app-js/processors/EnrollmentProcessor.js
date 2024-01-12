@@ -33,9 +33,12 @@ function verifyUser(latestEnrollmentIdentifier, userImage) {
     .then(function(data) {
         let response = JSON.parse(data);
         console.log(response);
-        alert(`Identification successfully completed...`);
-        window.location.href = './template/success-page.html';
-        
+        console.log(response.matchLevel);
+        if (response.matchLevel > 5) {
+            window.location.href = './template/success-page.html';
+        } else {
+            window.location.href = './template/fail-page.html';
+        }
     })
     .catch(function(error) {
         console.log('There was a problem with the fetch operation:', error);
