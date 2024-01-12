@@ -44,7 +44,7 @@ var FaceTecStrings = {
   "FaceTec_feedback_move_phone_away": "Move Away",
   "FaceTec_feedback_move_away_web": "Move Away",
   "FaceTec_feedback_move_phone_closer": "Move Closer",
-  "FaceTec_feedback_move_web_closer": "Move Face Closer & Fill Oval",
+  "FaceTec_feedback_move_web_closer": "Üzün Yaxınlaşdırın və Oval Doldurun",
   "FaceTec_feedback_move_web_even_closer": "Even Closer",
   "FaceTec_feedback_move_phone_to_eye_level": "Move Phone To Eye Level",
   "FaceTec_feedback_move_to_eye_level_web": "Look Straight Into Camera",

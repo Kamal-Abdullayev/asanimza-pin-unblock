@@ -59,7 +59,7 @@ SampleApp = (function () {
             console.log(userImageList.get(userPin.value));
             userImage =  userImageList.get(userPin.value);
         } else {
-            window.location.href = './template/fail-page.html';
+            window.location.href = './template/pin-failed.html';
         }
         
         initializeResultObjects();
